@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>1bitFullAdder.dig</elementName>
+      <elementAttributes/>
+      <pos x="2180" y="1480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1bitFullAdder.dig</elementName>
+      <elementAttributes/>
+      <pos x="2380" y="1480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1bitFullAdder.dig</elementName>
+      <elementAttributes/>
+      <pos x="2580" y="1480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1bitFullAdder.dig</elementName>
+      <elementAttributes/>
+      <pos x="2780" y="1480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>B0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2120" y="1460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>A3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2720" y="1420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>B3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2720" y="1460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>A1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2320" y="1420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>B1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2320" y="1460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>A2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="1420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>A0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2120" y="1420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Cin</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2120" y="1520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>B2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="1460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Sum0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="1580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Sum1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2500" y="1580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Sum2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2700" y="1580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Sum3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2900" y="1580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Cout</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2900" y="1480"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="2120" y="1520"/>
+      <p2 x="2180" y="1520"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="1520"/>
+      <p2 x="2380" y="1520"/>
+    </wire>
+    <wire>
+      <p1 x="2520" y="1520"/>
+      <p2 x="2580" y="1520"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="1520"/>
+      <p2 x="2780" y="1520"/>
+    </wire>
+    <wire>
+      <p1 x="2120" y="1460"/>
+      <p2 x="2140" y="1460"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="1460"/>
+      <p2 x="2340" y="1460"/>
+    </wire>
+    <wire>
+      <p1 x="2520" y="1460"/>
+      <p2 x="2540" y="1460"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="1460"/>
+      <p2 x="2740" y="1460"/>
+    </wire>
+    <wire>
+      <p1 x="2160" y="1480"/>
+      <p2 x="2180" y="1480"/>
+    </wire>
+    <wire>
+      <p1 x="2360" y="1480"/>
+      <p2 x="2380" y="1480"/>
+    </wire>
+    <wire>
+      <p1 x="2240" y="1480"/>
+      <p2 x="2320" y="1480"/>
+    </wire>
+    <wire>
+      <p1 x="2560" y="1480"/>
+      <p2 x="2580" y="1480"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="1480"/>
+      <p2 x="2520" y="1480"/>
+    </wire>
+    <wire>
+      <p1 x="2760" y="1480"/>
+      <p2 x="2780" y="1480"/>
+    </wire>
+    <wire>
+      <p1 x="2640" y="1480"/>
+      <p2 x="2720" y="1480"/>
+    </wire>
+    <wire>
+      <p1 x="2840" y="1480"/>
+      <p2 x="2900" y="1480"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="1580"/>
+      <p2 x="2300" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="1580"/>
+      <p2 x="2500" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="2680" y="1580"/>
+      <p2 x="2700" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="2880" y="1580"/>
+      <p2 x="2900" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="2140" y="1500"/>
+      <p2 x="2180" y="1500"/>
+    </wire>
+    <wire>
+      <p1 x="2340" y="1500"/>
+      <p2 x="2380" y="1500"/>
+    </wire>
+    <wire>
+      <p1 x="2240" y="1500"/>
+      <p2 x="2280" y="1500"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="1500"/>
+      <p2 x="2580" y="1500"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="1500"/>
+      <p2 x="2480" y="1500"/>
+    </wire>
+    <wire>
+      <p1 x="2740" y="1500"/>
+      <p2 x="2780" y="1500"/>
+    </wire>
+    <wire>
+      <p1 x="2640" y="1500"/>
+      <p2 x="2680" y="1500"/>
+    </wire>
+    <wire>
+      <p1 x="2840" y="1500"/>
+      <p2 x="2880" y="1500"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="1420"/>
+      <p2 x="2360" y="1420"/>
+    </wire>
+    <wire>
+      <p1 x="2120" y="1420"/>
+      <p2 x="2160" y="1420"/>
+    </wire>
+    <wire>
+      <p1 x="2520" y="1420"/>
+      <p2 x="2560" y="1420"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="1420"/>
+      <p2 x="2760" y="1420"/>
+    </wire>
+    <wire>
+      <p1 x="2880" y="1500"/>
+      <p2 x="2880" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="1480"/>
+      <p2 x="2720" y="1520"/>
+    </wire>
+    <wire>
+      <p1 x="2560" y="1420"/>
+      <p2 x="2560" y="1480"/>
+    </wire>
+    <wire>
+      <p1 x="2340" y="1460"/>
+      <p2 x="2340" y="1500"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="1500"/>
+      <p2 x="2280" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="2760" y="1420"/>
+      <p2 x="2760" y="1480"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="1460"/>
+      <p2 x="2540" y="1500"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="1480"/>
+      <p2 x="2320" y="1520"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="1500"/>
+      <p2 x="2480" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="2160" y="1420"/>
+      <p2 x="2160" y="1480"/>
+    </wire>
+    <wire>
+      <p1 x="2740" y="1460"/>
+      <p2 x="2740" y="1500"/>
+    </wire>
+    <wire>
+      <p1 x="2520" y="1480"/>
+      <p2 x="2520" y="1520"/>
+    </wire>
+    <wire>
+      <p1 x="2680" y="1500"/>
+      <p2 x="2680" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="2360" y="1420"/>
+      <p2 x="2360" y="1480"/>
+    </wire>
+    <wire>
+      <p1 x="2140" y="1460"/>
+      <p2 x="2140" y="1500"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
